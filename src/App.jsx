@@ -5,7 +5,6 @@ import Note from './components/Note'
 
 function App() {
 
-
   return (
     <>
         <Header />
