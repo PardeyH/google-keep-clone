@@ -1,8 +1,8 @@
-export default function Note() {
+export default function Note(props) {
     return (
         <div className="note">
-            <h1>Title of the note</h1>
-            <p>Note content...</p>
+            <h1>{props.title}</h1>
+            <p>{props.content}</p>
         </div>
     )
 }
