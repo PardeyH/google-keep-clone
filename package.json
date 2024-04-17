@@ -1,6 +1,6 @@
 {
   "name": "google-keeper-clone",
-  "private": true,
+  "private": false,
   "version": "0.1.0",
   "homepage": "https://pardeyh.github.io/google-keep-clone",
   "type": "module",
