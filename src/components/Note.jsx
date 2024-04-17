@@ -1,5 +1,6 @@
 export default function Note(props) {
     
+    // When pressing the delete button on a note, the ID of the note is send to the App.jsx
     function handleClick() {
         props.onDelete(props.noteId);
     }

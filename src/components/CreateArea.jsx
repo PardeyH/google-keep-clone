@@ -8,6 +8,7 @@ export default function CreateArea(props) {
         content: ""
     });
     
+    // This function updates the state when user types in the "title" and "content" field
     function handleChange(event) {
         const { name, value } = event.target;
     
@@ -19,6 +20,7 @@ export default function CreateArea(props) {
         });
     }
 
+    // When pressing the "Add"-Button a unique ID is created and the note is send to App.jsx via the onAdd-prop
     function submitNote(event) {
         props.onAdd(note);
         setNote({
